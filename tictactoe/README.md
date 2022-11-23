@@ -64,6 +64,6 @@ Therefore, practice deliberately and practice often. Practice alone and practice
 
 And remember, [the only way to get to Carnegie Hall](http://robert-inman.com/blog/2016/2/11/how-do-you-get-to-carnegie-hall) is to practice, practice, practice.
 
-Did I remember to tell you to practice yet?
+Did I remind you to practice yet?
 
 &mdash;Junilu Lacar (November 23, 2022)
