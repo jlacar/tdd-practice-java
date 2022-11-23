@@ -1,14 +1,22 @@
 # Learning TDD with Tic Tac Toe
 
-This is simple exercise is meant to help you explore Test-Driven Development by implementing the simple game of Tic-Tac-Toe.
+Use this starter project as a starting point for exploring Test-Driven Development by implementing the simple game of Tic-Tac-Toe.
 
 ## Getting Started
 
-The main branch of this repository is meant to be a starting point. It isn't meant to be an example of a full solution to the problem. 
+The main branch of this repository is meant to be a starting point; it isn't meant to be an example of a full solution to the problem. 
 
-The base project is currently configured as a Maven project. To start practicing, clone this repository and create a branch on which you can practice.
+The base project is currently configured as a Maven project. To start practicing, clone this repository and create a branch on which you can practice. 
 
-The TicTacToeTest class starts out with one test method, `it_is_ready_to_run_JUnit5_tests`. This is essentially a smoke test, to verify that the skeleton project is set up so you can run JUnit 5 successfully. If you can't run the test successfully, try to see what's going on with your IDE settings and environment. Try running `mvn clean test`.
+### Run the smoke test to make sure you're all set
+
+The TicTacToeTest class starts out with one test method, `it_is_ready_to_run_JUnit5_tests`. This is essentially a smoke test, to verify that the skeleton project is set up to run JUnit 5 successfully. If you can't run the test successfully, try to see what's going on with your IDE settings and environment. Try running `mvn clean test`.
+
+### Commit frequently to create a breadcrumb trail
+
+Commit changes to your practice branch frequently so people can follow along each step of the way. Ideally, you'd commit on every step in the TDD cycle: commit on Red, on Green, and after Refactor.
+
+Don't squash your commits. This will condense your commits into a single commit and destroy all traces of your journey through the practice session.
 
 ## Contributing
 
