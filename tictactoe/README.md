@@ -4,9 +4,21 @@ This is simple exercise is meant to help you explore Test-Driven Development by 
 
 ## Getting Started
 
-This main branch of this repository is meant to provide you with a starter project. It is currently configured as a Maven project. To start practicing, simply clone this repository and create a branch on which you can practice.
+The main branch of this repository is meant to be a starting point. It isn't meant to be an example of a full solution to the problem. 
+
+The base project is currently configured as a Maven project. To start practicing, clone this repository and create a branch on which you can practice.
 
 The TicTacToeTest class starts out with one test method, `it_is_ready_to_run_JUnit5_tests`. This is essentially a smoke test, to verify that the skeleton project is set up so you can run JUnit 5 successfully. If you can't run the test successfully, try to see what's going on with your IDE settings and environment. Try running `mvn clean test`.
+
+## Contributing
+
+If you want to contribute your practice branches so others can learn from your experience, don't squash the commits in your branch. It's best if people can see all your commits so they can follow along in your journey. 
+
+### Add helpful notes to help others gain context
+
+One thing you can do to help others benefit from your practice branches is to add copious notes. Describe what you did, what kind of conversations you had (if you were practicing solo, try to describe your thought process), what decisions were made and why, and what interesting things were discovered or learned during your practice session. 
+
+Context is key to understanding and having notes that give other people some context as to what was going on around a change will help them tremendously in understanding how, what, and why things happened the way they did   .
 
 ## Rules of the game
 
