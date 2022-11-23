@@ -38,7 +38,7 @@ Here are some focused learning goals you can start with:
 7. How can pair- or ensemble-programming help when I'm doing TDD?
 8. How do I know when I'm done?
 
-As you can see from this short list, there are many things you can focus on besides just solving the problem. You might be able to finish the program but task of learning and getting better never ends. Good programmers are always finding ways to learn and improve, even by solving a simple problem like Tic-Tac-Toe.
+As you can see from this short list, there are many things you can focus on besides just solving the problem. You might be able to finish the program but the task of learning and getting better is never truly done. Good programmers are always finding ways to learn and improve, even by solving a simple problem like Tic-Tac-Toe.
 
 Practice alone only makes habit; Only _perfect_ practice makes perfect.
 
