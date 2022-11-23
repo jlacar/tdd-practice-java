@@ -2,6 +2,12 @@
 
 This is simple exercise is meant to help you explore Test-Driven Development by implementing the simple game of Tic-Tac-Toe.
 
+## Getting Started
+
+This main branch of this repository is meant to provide you with a starter project. It is currently configured as a Maven project. To start practicing, simply clone this repository and create a branch on which you can practice.
+
+The TicTacToeTest class starts out with one test method, `it_is_ready_to_run_JUnit5_tests`. This is essentially a smoke test, to verify that the skeleton project is set up so you can run JUnit 5 successfully. If you can't run the test successfully, try to see what's going on with your IDE settings and environment. Try running `mvn clean test`.
+
 ## Rules of the game
 
 You can find the rules for Tic-Tac-Toe here:
