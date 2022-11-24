@@ -29,7 +29,7 @@ TBD
 A full set of rules for scoring tennis can be found here:
 https://www.usta.com/en/home/improve/tips-and-instruction/national/tennis-scoring-rules.html
 
-For, some general terminology.
+### General Tennis Terminology
 
 The player serving in a game is said to "have service" or simply "has serve" and is referred to as the "server."
 
