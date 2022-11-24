@@ -2,9 +2,9 @@
 
 (Adapted from the Tennis Refactoring exercise on https://cyber-dojo.org)
 
-The local tennis club has recently acquired two smaller tennis clubs. You have been employed by the tennis club to help integrate the tournament scoring systems used by the three clubs. Management has decided to install a new scoreboard system at all three clubs to save costs. However, due to certain complexities which we'll go into detail later, retiring and replacing the old scoring systems and is not an option at the moment. Therefore, the current scoring system at each club needs to work with the new scoreboard system. Where necessary, new features need to be added to get full integration with the new scoreboard system. 
+The local tennis club has recently acquired two smaller tennis clubs. You have been employed by the tennis club to help integrate the tournament scoring systems used by the three clubs. Management has decided to install a new scoreboard system at all three clubs to save costs. However, due to certain complexities which we'll go into detail later, retiring and replacing the old scoring systems is not an option at the moment. Therefore, the current scoring programs at each club needs to work with the new scoreboard system. Where necessary, new features need to be added to get full integration with the new scoreboard system. 
 
-Your first challenge is to make sure all the scoring programs can fully integrate with the new scoreboard system.
+Your first challenge is to make sure all the scoring programs are actually working properly and can be fully integrate with the new scoreboard system.
 
 ## The Exercise
 
