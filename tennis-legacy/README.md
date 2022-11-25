@@ -39,13 +39,13 @@ The player who serves first in a match is said to have "first service" or "first
 
 A player will have service for the whole game. Service alternates between sides for each game played under normal conditions. Service rules will be different for certain tiebreak conditions.
 
-For the purposes of this exercise, focus on implementing these rules first:
+### The Rules 
 
-1. A game is won by the first player to have won at least four points
-   in total and at least two points more than the opponent.
+For the purposes of this exercise, focus on these rules first:
+
+1. A game is won by the first player to have won at least four points in total and at least two points more than the opponent.
 2. The running score of each game is described in the following manner: zero points is "Love", one point is "Fifteen", two points is "Thirty", and three points is "Forty".
-3. If at least three points have been scored by each player, that is, they each have gotten to "Forty" and the
-   scores are equal, the score is “Deuce”.
+3. If at least three points have been scored by each player, that is, they each have gotten to "Forty" and the scores are equal, the score is “Deuce”.
 4. If at least three points have been scored by each side and a player has one more point than their opponent, the score of the game is “Advantage” for the player in the lead.
 5. Scores are always given in server-receiver order. That is, if the server has 0 points and the receiver has 2 points, the score will be given as "Love-Thirty". Likewise, if the server has 2 points and the receiver has 0 points, the score will be given as "Thirty-Love."
 6. When scores are tied at less than three points, the score is given as "<score> all". For example, if the players are tied at Fifteen, the score is given as "Fifteen all". If they both have zero, the score is given as "Love all".
