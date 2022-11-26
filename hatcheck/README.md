@@ -5,6 +5,8 @@ The goal of this exercise is to practice Object-Oriented design on the Hat Check
 A description of the Hat Check problem can be found here:
 https://proofwiki.org/wiki/Hat-Check_Problem
 
+In summary, a confused hat-check girl completely loses track of which of N hats belong to which owners, and hands them back at random as the owners leave. What is the probability _P~n~_ that nobody receives their own hat back?
+
 **ATTRIBUTION:** I added this exercise after seeing [this discussion on CodeRanch](
 https://coderanch.com/t/755352/java/Simulate-Hatcheck).
 
