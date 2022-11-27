@@ -1,7 +1,9 @@
-# Read Me First
-The following was discovered as part of building this project:
+# About this exercise
 
-* The original package name 'com.example.refactor-tests' is invalid and this project uses 'com.example.refactortests' instead.
+This is an exercise for refactoring tests. The code is "borrowed" from a thread in CodeRanch.com:
+
+https://coderanch.com/t/755948/java/remove-maximum-values-array-integers
+
 
 # Getting Started
 
