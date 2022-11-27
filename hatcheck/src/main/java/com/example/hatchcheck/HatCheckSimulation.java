@@ -4,54 +4,67 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class HatCheck {
-    public static void main(String[] args) {
-        int trials = 10000;
-        int n = 5;
-        Owner[] hatOwners = new Owner[n];
-        List<Integer> checkNumbers = consecutiveCheckNumbers(n);
-        for (int i = 0; i < n; i++) {
-            hatOwners[i] = new Owner(checkNumbers.get(i));
+public class HatCheckSimulation {
+    private final Owner[] customers;
+    private final List<Integer> checkNumbers;
+
+    public HatCheckSimulation(int howManyCustomers) {
+        checkNumbers = new ArrayList<>();
+        customers = initializeSimulation(howManyCustomers);
+    }
+
+    private Owner[] initializeSimulation(int count) {
+        Owner[] customers = new Owner[count];
+        for (int i = 0; i < count; i++) {
+            checkNumbers.add(i+1);
+            customers[i] = new Owner(i+1);
         }
+        return customers;
+    }
+
+    public void run(int trials) {
         for (int i = 0; i < trials; i++) {
             Collections.shuffle(checkNumbers);
             for (int j = 0; j < checkNumbers.size(); j++) {
-                hatOwners[j].getHatBack(checkNumbers.get(j));
+                customers[j].checkout(checkNumbers.get(j));
             }
         }
-        System.out.printf("In %d simulations with %d customers, the Hat Check Lady gave...%n", trials, n);
-        for (Owner owner : hatOwners) {
+        reportResults(trials);
+    }
+
+    private void reportResults(int trials) {
+        System.out.printf("In %d simulations with %d customers, the Hat Check Lady gave...%n", trials, customers.length);
+        for (Owner owner : customers) {
             System.out.printf("customer #%d the wrong hat %d times (%.2f%%)%n",
                     owner.checkNumber(), owner.timesGivenWrongHat(),
                     100.0 * owner.timesGivenWrongHat() / trials);
         }
     }
 
-    private static List<Integer> consecutiveCheckNumbers(int hatCount) {
-        List<Integer> numbers = new ArrayList<>();
-        for (int i = 0; i < hatCount; i++) {
-            numbers.add(i + 1);
-        }
-        return numbers;
+    public static void main(String[] args) {
+        int n = 5;
+        int trials = 10000;
+        HatCheckSimulation simulation = new HatCheckSimulation(n);
+        simulation.run(trials);
     }
 }
 
 class Owner {
-    private final int checkNumber;
+    private final int myHatCheckNumber;
     private int timesCheckedOut;
     private int timesGivenWrongHat;
 
-    public Owner(int checkNumber) {
-        this.checkNumber = checkNumber;
+    public Owner(int myHatCheckNumber) {
+        this.myHatCheckNumber = myHatCheckNumber;
     }
 
     public int checkNumber() {
-        return checkNumber;
+        return myHatCheckNumber;
     }
 
-    public void getHatBack(int checkNumber) {
+    public void checkout(int checkNumberOfHatThatIGotBack) {
         timesCheckedOut++;
-        if (checkNumber != this.checkNumber) {
+        if (checkNumberOfHatThatIGotBack != myHatCheckNumber) {
             timesGivenWrongHat++;
         }
     }
