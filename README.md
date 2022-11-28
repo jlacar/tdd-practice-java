@@ -10,4 +10,13 @@ Since they are not meant to be full solutions, the starter projects in the main 
 be updated to improve their descriptions, add initial files, and update the initial configuration 
 to make each project ready to be worked on out of the box.
 
-Each starter project will have its own README file to explain what the exercise is about. 
+Each starter project will have its own README file to explain what the exercise is about.
+
+## No Tests Found error with IntelliJ IDEA
+
+If you are using IntelliJ IDEA and created a project from these sources, you might get a "No Tests Found" error 
+when you try to run the provided tests. Check the following:
+
+1. Your project Java Language level is correctly set
+2. Your project Module content roots are correctly configured. The project content root should have the Source and Test folders configured. Delete any content roots that IDEA created under main and test.
+  
