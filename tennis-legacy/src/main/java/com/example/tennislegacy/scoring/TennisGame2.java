@@ -1,4 +1,4 @@
-package com.example.tennislegacy.scoring.club2;
+package com.example.tennislegacy.scoring;
 
 public class TennisGame2
 {
